@@ -3,4 +3,8 @@ class Character
   end
 end
 
-class 
+class Hero < Character
+end
+
+class Villain < Character
+end
