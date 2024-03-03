@@ -1,6 +1,5 @@
 class Character
-  attr_accessor :name
-  attr_accessor :health_hp
+  attr_accessor :name, :health_hp
 
   def initialize
     @name = name
@@ -29,6 +28,7 @@ end
 wizard1 = Hero.new
 wizard1.name = "Harry Potter"
 wizard1.wand_power = 17
+wizard1.health_hp
 
 wizard2 = Hero.new
 wizard2.name = "Hermione Granger"
