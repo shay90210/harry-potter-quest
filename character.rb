@@ -1,5 +1,5 @@
 class Character
-  attr_accessor :name, :health_hp, :role
+  attr_accessor :name, :health_hp, :role, :attack_power
 
   def initialize(name, health_hp, role, attack_power) 
     @name = name
