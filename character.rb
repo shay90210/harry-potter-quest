@@ -3,8 +3,8 @@ class Character
   attr_accessor :health_hp
 
   def initialize
-    :name = name
-    :health_hp = 100
+    @name = name
+    @health_hp = 100
   end
 end
 
