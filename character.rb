@@ -17,5 +17,4 @@ wizard4 = Character.new("Severus Snape", 100, "Howgarts Teacher", 40)
 villain1 = Character.new("Basilisk", 100, "Large Snake", 50)
 villain2 = Character.new("Bellatrix LeStrange", 100, "Death Eater", 36)
 villain3 = Character.new("Aragog", 100, "Acromantula", 60)
-villain4 = Character.new("Lupin", 100, "Werewolf", 45)
-
+villain4 = Character.new("Professor Lupin", 100, "Werewolf", 45)
