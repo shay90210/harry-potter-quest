@@ -13,5 +13,5 @@ class Hero < Character
 end
 
 class Villain < Character
-  attr_accessor :power
+  attr_accessor :evil_power
 end
