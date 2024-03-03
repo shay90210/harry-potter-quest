@@ -1,47 +1,17 @@
 class Character
-  attr_accessor :name, :health_hp
+  attr_accessor :name, :health_hp, :role
 
-  def initialize
+  def initialize(name, health_hp, role) 
     @name = name
-    @health_hp = 100
+    @health_hp = health_hp
+    @role = role
   end
 end
 
-class Hero < Character
-  attr_accessor :wand_power
-  attr_accessor :special_power
+wizard1 = Character.new("Harry Potter", 100, "Howgarts Wizard")
 
-  def initialize
-    @wand_power = wand_power
-    @special_power = special_power
-  end
-end
+wizard2 = Character.new("Hermione Granger", 100, "Hogwarts Wizard")
 
-class Villain < Character
-  attr_reader :evil_power
+wizard3 = Character.new("Ron Weasley", 100, "Hogwarts Wizard")
 
-  def initialize
-    @evil_power = evil_power
-  end
-end
-
-wizard1 = Hero.new
-wizard1.name = "Harry Potter"
-wizard1.wand_power = 18
-# wizard1.health_hp
-
-wizard2 = Hero.new
-wizard2.name = "Hermione Granger"
-wizard2.wand_power = 20
-
-wizard3 = Hero.new
-wizard3.name = "Ron Weasley"
-wizard3.wand_power = 16
-
-wizard4 = Hero.new
-wizard4.name = "Neville Longbottom"
-wizard4.wand_power = 14
-
-pp wizard1.name
-pp wizard1.wand_power
-# pp wizard1.health_hp
+wizard4 = Character.new("Severus Snape", 100, "Howgarts Teacher")
