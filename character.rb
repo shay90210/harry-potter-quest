@@ -12,6 +12,7 @@ class Hero < Character
   attr_reader :wand_power
 
   def initialize
+    @wand_power = wand_power
   end
 end
 
@@ -19,5 +20,6 @@ class Villain < Character
   attr_reader :evil_power
 
   def initialize
+    @evil_power = evil_power
   end
 end
