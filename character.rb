@@ -10,9 +10,11 @@ end
 
 class Hero < Character
   attr_reader :wand_power
+  attr_reader :special_power
 
   def initialize
     @wand_power = wand_power
+    @special_power = special_power
   end
 end
 
