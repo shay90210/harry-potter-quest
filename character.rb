@@ -1,5 +1,5 @@
 class Character
-  attr_accessor :name
+  attr_reader :name
   attr_accessor :health_hp
 
   def initialize
@@ -9,9 +9,9 @@ class Character
 end
 
 class Hero < Character
-  attr_accessor :wand_power
+  attr_reader :wand_power
 end
 
 class Villain < Character
-  attr_accessor :evil_power
+  attr_reader :evil_power
 end
