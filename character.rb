@@ -28,7 +28,7 @@ end
 wizard1 = Hero.new
 wizard1.name = "Harry Potter"
 wizard1.wand_power = 17
-wizard1.health_hp
+# wizard1.health_hp
 
 wizard2 = Hero.new
 wizard2.name = "Hermione Granger"
@@ -44,4 +44,4 @@ wizard4.wand_power = 14
 
 pp wizard1.name
 pp wizard1.wand_power
-pp wizard1.health_hp
+# pp wizard1.health_hp
