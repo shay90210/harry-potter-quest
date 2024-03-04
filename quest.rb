@@ -11,4 +11,16 @@ class Quest
 
     choice = gets.chomp
   end
+
+  def potter_quest
+  end
+
+  def granger_quest
+  end
+
+  def weasley_quest
+  end
+
+  def snape_quest
+  end
 end
