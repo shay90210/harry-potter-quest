@@ -34,6 +34,7 @@ class Quest
         break
       else
         puts "Did you mean to type a number? Choose an option again..."
+        puts "\n"
       end
     end
   end
