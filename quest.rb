@@ -13,7 +13,7 @@ class Quest
       puts "4. Severus Snape"
       puts "5. Quit Quest"
       puts "\n"
-      puts "Who will it be?: "
+      puts "Make your decision now: "
 
       option = gets.chomp.to_i
       case option
