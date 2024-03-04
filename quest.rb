@@ -19,12 +19,16 @@ class Quest
       case option
       when 1
         potter_quest
+        break
       when 2
         granger_quest
+        break
       when 3
         weasley_quest
+        break
       when 4
         snape_quest
+        break
       when 5
         puts "Goodbye. Maybe we will try to make the journey again next time..."
         break
