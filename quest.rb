@@ -6,6 +6,7 @@ class Quest
     loop do
       puts "Welcome to the wizarding world of Harry Potter. You will need to journey on a quest to get out of a dire situation!"
       puts "Choose your character. Be wise as you may not know how your journey will end..."
+      
       puts "\n"
       puts "1. Harry Potter"
       puts "2. Hermione Granger"
