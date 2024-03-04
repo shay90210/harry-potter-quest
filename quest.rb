@@ -35,18 +35,18 @@ class Quest
   end
 
   def potter_quest
-    return "This is the Potter quest!"
+    puts "This is the Potter quest!"
   end
 
   def granger_quest
-    return "This is the Granger quest!"
+    puts "This is the Granger quest!"
   end
 
   def weasley_quest
-    pp "This is the Weasley quest!"
+    puts "This is the Weasley quest!"
   end
 
   def snape_quest
-    pp "This is the Snape quest!"
+    puts "This is the Snape quest!"
   end
 end
