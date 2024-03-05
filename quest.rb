@@ -39,7 +39,7 @@ class Quest
   def potter_quest
     puts "Harry rushed alone to the Chamber of Secrets as he is searching for Ginny Weasley. The heir of Slytherin kidnapped her, and she must be returned to safety at Hogwarts!"
     puts "\n"
-    puts "Harry enters a hall covered in snakes and hears a hisssssssssssssssssssssssssssssss...."
+    puts "Harry enters a tunnel covered in statues of snakes with water everywhere. He hears a hisssssssssssssssssssssssssssssss...."
     puts "What should Harry do?"
     puts "\n"
     puts "1. Check it out."
