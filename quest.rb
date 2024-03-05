@@ -46,6 +46,11 @@ class Quest
     option = gets.chomp
     puts "Y"
     puts "N"
+    if option == n.upcase.downcase
+      break
+      puts "We will save Ginny next time..."
+    end
+
   end
 
   def granger_quest
