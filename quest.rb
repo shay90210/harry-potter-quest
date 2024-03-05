@@ -41,22 +41,12 @@ class Quest
   end
 
   def potter_quest
-    puts "Join Harry Potter in the Chamber of Secrets as he is searching for Ginny Weasley. She was kidnapped by the heir of Slytherin and needs to be returned to safety at Hogwarts!"
-    puts "Would you like to continue?"
+    puts "Harry rushed alone to the Chamber of Secrets as he is searching for Ginny Weasley. The heir of Slytherin kidnapped her, and she must be returned to safety at Hogwarts!"
     puts "\n"
-    puts "Y"
-    puts "N"
-    option = gets.chomp
-
-    if option == "N" || "n"
-      puts "We will save Ginny next time..."
-    else 
-      puts "Let's proceed..."
-    end
-
     puts "Harry enters a hall covered in snakes and hears a hisssssssssssssssssssss...."
     puts "What should Harry do?"
-    option = gets.chomp
+    puts "\n"
+    option = gets.chomp.to_i
     puts "1. Check it out."
     puts "2. Wait to see what happens."
   end
