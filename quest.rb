@@ -41,7 +41,11 @@ class Quest
   end
 
   def potter_quest
-    puts "This is the Potter quest!"
+    puts "Join Harry Potter in the Chamber of Secrets as he is searching for Ginny Weasley. She was kidnapped by the heir of Slytherin and needs to be returned to safety at Hogwarts!"
+    puts "Would you like to continue?"
+    option = gets.chomp
+    puts "Y"
+    puts "N"
   end
 
   def granger_quest
