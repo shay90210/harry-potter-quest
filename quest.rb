@@ -11,8 +11,7 @@ class Quest
       puts "1. Harry Potter"
       puts "2. Hermione Granger"
       puts "3. Ron Weasley"
-      puts "4. Severus Snape"
-      puts "5. Quit Quest"
+      puts "4. Quit"
       puts "\n"
       puts "Make your decision now: "
 
@@ -28,9 +27,6 @@ class Quest
         weasley_quest
         break
       when 4
-        snape_quest
-        break
-      when 5
         puts "Goodbye. Maybe we will try to make the journey again next time..."
         break
       else
