@@ -42,9 +42,9 @@ class Quest
     puts "Harry enters a hall covered in snakes and hears a hisssssssssssssssssssssssssssssss...."
     puts "What should Harry do?"
     puts "\n"
-    option = gets.chomp.to_i
     puts "1. Check it out."
     puts "2. Wait to see what happens."
+    option = gets.chomp.to_i
   end
 
   def granger_quest
