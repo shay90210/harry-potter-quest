@@ -60,8 +60,4 @@ class Quest
   def weasley_quest
     puts "This is the Weasley quest!"
   end
-
-  def snape_quest
-    puts "This is the Snape quest!"
-  end
 end
