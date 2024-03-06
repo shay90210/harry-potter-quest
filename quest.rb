@@ -70,4 +70,12 @@ class Quest
   def basilisk_battle
     puts "Harry will fight in this battle!"
   end
+
+  def bellatrix_battle
+    puts "Hermione will fight in this battle!"
+  end
+
+  def aragog_battle
+    puts "Ron will fight in this battle!"
+  end
 end
