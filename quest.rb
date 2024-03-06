@@ -37,6 +37,9 @@ class Quest
   end
 
   def potter_quest
+    basilisk_attack = [
+        
+    ]
     puts "Harry rushed alone to the Chamber of Secrets as he is searching for Ginny Weasley. The heir of Slytherin kidnapped her, and she must be returned to safety at Hogwarts!"
     puts "\n"
     puts "Harry enters a tunnel covered in statues of snakes with water everywhere. He hears a hisssssssssssssssssssssssssssssss...."
