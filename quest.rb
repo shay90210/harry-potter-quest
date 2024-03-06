@@ -1,12 +1,16 @@
+# require is pulling the class Character from the character.rb file
 require_relative "character"
 
 class Quest
+  # User will choose a character of choice to begin Quest play
   def choose_character
 
     loop do
+      # Introduction to game
       puts "Welcome to the wizarding world of Harry Potter. You will need to journey on a quest to get out of a dire situation!"
       puts "Choose your character. Be wise as you may not know how your journey will end..."
       
+      # User options after the introduction - each option will go to a specific quest
       puts "\n"
       puts "1. Harry Potter"
       puts "2. Hermione Granger"
