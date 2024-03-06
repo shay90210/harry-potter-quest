@@ -37,17 +37,22 @@ class Quest
   end
 
   def potter_quest
-    basilisk_attack = [
-        
-    ]
     puts "Harry rushed alone to the Chamber of Secrets as he is searching for Ginny Weasley. The heir of Slytherin kidnapped her, and she must be returned to safety at Hogwarts!"
     puts "\n"
     puts "Harry enters a tunnel covered in statues of snakes with water everywhere. He hears a hisssssssssssssssssssssssssssssss...."
     puts "What should Harry do?"
     puts "\n"
+
     puts "1. Check it out."
     puts "2. Wait to see what happens."
+
     option = gets.chomp.to_i
+    case option
+    when 1
+      basilisk_battle
+    else
+      puts "The sound is getting closer and more vivid..."
+    end
   end
 
   def granger_quest
@@ -56,5 +61,9 @@ class Quest
 
   def weasley_quest
     puts "This is the Weasley quest!"
+  end
+
+  def basilisk_battle
+    puts "Harry will fight in this battle!"
   end
 end
