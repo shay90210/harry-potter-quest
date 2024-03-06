@@ -36,6 +36,7 @@ class Quest
     end
   end
 
+  # EACH INDIVIDUAL CHARACTER QUEST - Beginning w/ Harry Potter
   def potter_quest
     puts "Harry rushed alone to the Chamber of Secrets as he is searching for Ginny Weasley. The heir of Slytherin kidnapped her, and she must be returned to safety at Hogwarts!"
     puts "\n"
@@ -55,14 +56,17 @@ class Quest
     end
   end
 
+  # Hermione Granger's quest
   def granger_quest
     puts "This is the Granger quest!"
   end
 
+  # Ron Weasley's quest
   def weasley_quest
     puts "This is the Weasley quest!"
   end
 
+  # CHARACTER BATTLES WILL BE LOCATED BELOW
   def basilisk_battle
     puts "Harry will fight in this battle!"
   end
