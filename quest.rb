@@ -34,7 +34,7 @@ class Quest
         puts "Goodbye. Maybe we will try to make the journey again next time..."
         break
       else
-        puts "Did you mean to type a number? Choose an option again..."
+        puts "Did you mean to type a number? Choose an option between 1 and 4..."
         puts "\n"
       end
     end
@@ -72,7 +72,13 @@ class Quest
 
   # CHARACTER BATTLES WILL BE LOCATED BELOW
   def basilisk_battle
-    puts "Harry will fight in this battle!"
+    basilisk_attack = [
+      "The basilisk struck Harry with its fangs...", 
+      "The basilisk wacked Harry with his tail...", 
+      "The basilisk constricted Harry's body...", 
+      "The basilisk gazed into Harry's eyes..."
+    ]
+    puts basilisk_attack.sample
   end
 
   def bellatrix_battle
