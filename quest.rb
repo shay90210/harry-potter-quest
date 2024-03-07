@@ -42,7 +42,7 @@ class Quest
 
   # EACH INDIVIDUAL CHARACTER QUEST - Beginning w/ Harry Potter
   def potter_quest
-    puts "Harry rushed alone to the Chamber of Secrets as he is searching for Ginny Weasley. The heir of Slytherin kidnapped her, and she must be returned to safety at Hogwarts!"
+    puts "Harry is looking for Ginny in the Chamber of Secrets. The heir of Slytherin kidnapped her and threatened to harm her!"
     puts "\n"
     puts "Harry enters a tunnel covered in statues of snakes with water everywhere. He hears a hisssssssssssssssssssssssssssssss...."
     puts "What should Harry do?"
