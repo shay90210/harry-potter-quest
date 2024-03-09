@@ -8,7 +8,12 @@ class CharacterQuest
     loop do
       # Introduction to game / Going to change to the user creating their character and the options to choose a HP character will be based on the quest.
       puts "Welcome to the wizarding world of Harry Potter. You will need to journey on a quest to get out of a dire situation!"
+
       puts "Create your character."
+      puts "1. Character Name"
+      puts "2. Girl or Boy?"
+      create_character = gets.chomp
+
       puts "Choose you would like to venture on a journey with. Be wise as you may not know how your journey will end..."
       
       # User options after the introduction - each option will go to a specific quest
