@@ -1,4 +1,4 @@
 require_relative "quest"
 
-quest = Character.new
+quest = QuestCharacter.new
 quest.choose_character
