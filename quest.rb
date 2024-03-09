@@ -16,7 +16,7 @@ class CharacterQuest
 
       puts "2. Are you a witch or a wizard?"
       character_role = gets.chomp
-      puts "You are a very wise #{characer_role}, but you still have a lot to learn..."
+      puts "You are a very wise #{character_role}, but you still have a lot to learn..."
 
       puts "Choose you would like to venture on a journey with. Be wise as you may not know how your journey will end..."
       
