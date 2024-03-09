@@ -9,12 +9,14 @@ class CharacterQuest
       puts "\n"
       puts "Create your character."
 
-      puts "1. What is your character's Name?"
+      puts "What is your character's Name?"
       character_name = gets.chomp
       puts "\n"
       puts "Hello #{character_name}!"
 
-      puts "2. Are you a witch or a wizard?"
+      puts "Are you a: "
+      puts "1. Witch"
+      puts "2. Wizard"
       character_role = gets.chomp
       puts "\n"
       puts "You are a very wise #{character_role}, but you still have a lot to learn..."
