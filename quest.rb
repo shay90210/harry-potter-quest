@@ -11,6 +11,7 @@ class CharacterQuest
 
       puts "1. What is your character Name?"
       character_name = gets.chomp
+      puts "\n"
       puts "Hello #{character_name}!"
 
       puts "2. Are you a witch or a wizard?"
