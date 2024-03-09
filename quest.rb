@@ -1,6 +1,4 @@
 # require is pulling the class Character from the character.rb file
-require_relative "character"
-
 class CharacterQuest
   # User will choose a character of choice to begin Quest play
   def choose_character
