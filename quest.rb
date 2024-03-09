@@ -19,7 +19,7 @@ class CharacterQuest
       puts "\n"
       puts "You are a very wise #{character_role}, but you still have a lot to learn..."
 
-      puts "Choose you would like to venture on a journey with. Be wise as you may not know how your journey will end..."
+      puts "Choose who you would like to journey alongside an adventure. Be wise as you may not know how your journey will end..."
       
       # User options after the introduction - each option will go to a specific quest
       puts "\n"
