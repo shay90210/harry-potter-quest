@@ -1,5 +1,8 @@
 # require is pulling the class Character from the character.rb file
 class CharacterQuest
+  # Will need to add the attributes and accessors to below: character_name & Character_role
+
+  
   # User will choose a character of choice to begin Quest play
   def choose_character
 
