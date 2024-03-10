@@ -10,7 +10,6 @@ class CharacterQuest
   
   # User will choose a character of choice to begin Quest play
   def create_character
-
     loop do
       # Introduction to game / Going to change to the user creating their character and the options to choose a HP character will be based on the quest.
       puts "Welcome to the wizarding world of Harry Potter. You will need to journey on a quest to get out of a dire situation!"
@@ -18,16 +17,16 @@ class CharacterQuest
       puts "Create your character."
 
       puts "What is your character's Name?"
-      self.name = gets.chomp
+      self.name = gets.chomp.capitalize
       puts "\n"
-      puts "Hello #{character_name.name}!"
+      puts "Hello #{self.name}!"
 
       puts "Are you a: "
       puts "1. Witch"
       puts "2. Wizard"
-      character_role = gets.chomp
+      self.role = gets.chomp
       puts "\n"
-      puts "You are a very wise #{character_role}, but you still have a lot to learn..."
+      puts "You are a very wise #{self.role}, but you still have a lot to learn..."
 
       puts "Choose who you would like to journey alongside an adventure. Be wise as you may not know how your journey will end..."
       
@@ -63,21 +62,23 @@ class CharacterQuest
 
   # EACH INDIVIDUAL CHARACTER QUEST - Beginning w/ Harry Potter
   def potter_quest
-    puts "Harry is looking for Ginny in the Chamber of Secrets. The heir of Slytherin kidnapped her and threatened to harm her!"
-    puts "\n"
-    puts "Harry enters a tunnel and hears a hisssssssssssssssssssssssssssssss...."
-    puts "What should Harry do?"
-    puts "\n"
+    loop do
+      puts "Harry is looking for Ginny in the Chamber of Secrets. The heir of Slytherin kidnapped her and threatened to harm her!"
+      puts "\n"
+      puts "Harry enters a tunnel and hears a hisssssssssssssssssssssssssssssss...."
+      puts "What should Harry do?"
+      puts "\n"
 
-    puts "1. Check it out."
-    puts "2. Wait to see what happens."
+      puts "1. Check it out."
+      puts "2. Wait to see what happens."
 
-    option = gets.chomp.to_i
-    case option
-    when 1
-      basilisk_battle
-    else
-      puts "The sound is getting closer and more vivid..."
+      option = gets.chomp.to_i
+      case option
+      when 1
+        basilisk_battle
+      else
+        puts "The sound is getting closer and more vivid..."
+      end
     end
   end
 
