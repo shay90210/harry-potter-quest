@@ -99,8 +99,7 @@ class CharacterQuest
       "The basilisk constricted Harry's body...", 
       "The basilisk gazed into Harry's eyes..."
     ]
-    loop do
-      puts basilisk_attack.sample
+    puts basilisk_attack.sample
     end
   end
 
