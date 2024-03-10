@@ -58,13 +58,13 @@ class CharacterQuest
     puts "\n"
     puts "Harry enters a tunnel and hears a hisssssssssssssssssssssssssssssss...."
     puts "\n"
-    
+
     puts "What should Harry do?"
     puts "1. Check it out."
     puts "2. Wait to see what happens."
 
     option = gets.chomp.to_i
-    case option
+    case option1
     when 1
       basilisk_battle
     else
@@ -91,6 +91,7 @@ class CharacterQuest
       "The basilisk constricted Harry's body...", 
       "The basilisk gazed into Harry's eyes..."
     ]
+    puts "\n"
     puts basilisk_attack.sample
   end
 
