@@ -1,10 +1,15 @@
 # require is pulling the class Character from the character.rb file
 class CharacterQuest
-  # Will need to add the attributes and accessors to below: character_name & Character_role
-
+  # Will need to add the attributes and accessors to below: character name & Character role
+  attr_accessor :name, :role
+  
+  def initialize
+    @name = name
+    @role = role 
+  end
   
   # User will choose a character of choice to begin Quest play
-  def choose_character
+  def create_character
 
     loop do
       # Introduction to game / Going to change to the user creating their character and the options to choose a HP character will be based on the quest.
@@ -13,9 +18,9 @@ class CharacterQuest
       puts "Create your character."
 
       puts "What is your character's Name?"
-      character_name = gets.chomp
+      self.name = gets.chomp
       puts "\n"
-      puts "Hello #{character_name}!"
+      puts "Hello #{character_name.name}!"
 
       puts "Are you a: "
       puts "1. Witch"
