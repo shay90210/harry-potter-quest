@@ -64,7 +64,7 @@ class CharacterQuest
     puts "2. Wait to see what happens."
 
     option = gets.chomp.to_i
-    case option1
+    case option
     when 1
       basilisk_battle
     else
@@ -91,8 +91,13 @@ class CharacterQuest
       "The basilisk constricted Harry's body...", 
       "The basilisk gazed into Harry's eyes..."
     ]
-    puts "\n"
-    puts basilisk_attack.sample
+    loop do
+      puts "\n"
+      puts basilisk_attack.sample
+      puts "\n"
+      puts "Harry was knocked down by the basilisk, and he is unconscious. What should you do?"
+      
+    end
   end
 
   def bellatrix_battle
