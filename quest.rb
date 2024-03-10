@@ -54,6 +54,7 @@ class CharacterQuest
 
   # EACH INDIVIDUAL CHARACTER QUEST - Beginning w/ Harry Potter
   def potter_quest
+    puts "\n"
     puts "Harry is looking for Ginny in the Chamber of Secrets. The heir of Slytherin kidnapped her and threatened to harm her!"
     puts "\n"
     puts "Harry enters a tunnel and hears a hisssssssssssssssssssssssssssssss...."
