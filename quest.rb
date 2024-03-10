@@ -96,7 +96,19 @@ class CharacterQuest
       puts basilisk_attack.sample
       puts "\n"
       puts "Harry was knocked down by the basilisk, and he is unconscious. What should you do?"
-      
+      option = gets.chomp.to_i
+      case option
+      when 1
+        wand spell
+      when 2
+        physical attack
+      when 3
+        flee
+        puts "You abandoned Harry. Do you call yourself a hero?"
+        puts "Quest over!"
+        break
+      else
+        puts "Did you mean to type a number? Choose an option between 1-3..."
     end
   end
 
