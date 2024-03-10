@@ -23,7 +23,6 @@ class CharacterQuest
       puts "Choose who you would like to journey alongside an adventure. Be wise as you may not know how your journey will end..."
       
       # User options after the introduction - each option will go to a specific quest
-      puts "\n"
       puts "1. Harry Potter"
       puts "2. Hermione Granger"
       puts "3. Ron Weasley"
