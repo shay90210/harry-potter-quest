@@ -1,11 +1,10 @@
 # require is pulling the class Character from the character.rb file
 class CharacterQuest
   # Will need to add the attributes and accessors to below: character name & Character role
-  attr_accessor :name, :role
+  attr_accessor :name
   
   def initialize
     @name = name
-    @role = role 
   end
   
   # User will choose a character of choice to begin Quest play
@@ -20,13 +19,6 @@ class CharacterQuest
       self.name = gets.chomp.capitalize
       puts "\n"
       puts "Hello #{self.name}!"
-
-      puts "Are you a: "
-      puts "1. Witch"
-      puts "2. Wizard"
-      self.role = gets.chomp
-      puts "\n"
-      puts "You are a very wise #{self.role}, but you still have a lot to learn..."
 
       puts "Choose who you would like to journey alongside an adventure. Be wise as you may not know how your journey will end..."
       
@@ -100,7 +92,6 @@ class CharacterQuest
       "The basilisk gazed into Harry's eyes..."
     ]
     puts basilisk_attack.sample
-    end
   end
 
   def bellatrix_battle
