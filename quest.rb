@@ -119,4 +119,5 @@ class CharacterQuest
   def aragog_battle
     puts "Ron will fight in this battle!"
   end
+  cast_spell = {:wingardrium_leviosa => 8, :expulso => 25, :stupefy => 42, :petrifacus_totalus => 17, :incarcerus => 36, :lumos => 4}
 end
