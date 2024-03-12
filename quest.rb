@@ -91,8 +91,10 @@ class CharacterQuest
       "The basilisk constricted Harry's body...", 
       "The basilisk gazed into Harry's eyes..."
     ]
+    cast_spell = {:wingardrium_leviosa => 8, :expulso => 25, :stupefy => 42, :petrifacus_totalus => 17, :incarcerus => 36, :lumos => 4}
     loop do
       puts "\n"
+      puts "A basilisk appeared!"
       puts basilisk_attack.sample
       puts "Harry was knocked down by the basilisk, and he is unconscious. What should you do?"
       puts "\n"
@@ -122,5 +124,4 @@ class CharacterQuest
   def aragog_battle
     puts "Ron will fight in this battle!"
   end
-  cast_spell = {:wingardrium_leviosa => 8, :expulso => 25, :stupefy => 42, :petrifacus_totalus => 17, :incarcerus => 36, :lumos => 4}
 end
