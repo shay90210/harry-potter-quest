@@ -93,7 +93,7 @@ class CharacterQuest
     ]
 
     cast_spell = {:wingardrium_leviosa => 8, :expulso => 25, :stupefy => 42, :petrifacus_totalus => 17, :incarcerus => 36, :lumos => 4}
-    
+
     loop do
       puts "\n"
       puts "A basilisk appeared!"
@@ -103,8 +103,9 @@ class CharacterQuest
       puts "1. Cast a Spell"
       puts "2. Try a physical attack"
       puts "3. Flee the scene"
-      puts "\n"
+
       option = gets.chomp.to_i
+      puts "\n"
       case option
       when 1
         cast_spell.sample
