@@ -99,7 +99,7 @@ class CharacterQuest
       option = gets.chomp.to_i
       case option
       when 1
-        wand spell
+        cast_spell.sample
       when 2
         physical attack
       when 3
