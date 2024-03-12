@@ -94,8 +94,10 @@ class CharacterQuest
     loop do
       puts "\n"
       puts basilisk_attack.sample
-      puts "\n"
       puts "Harry was knocked down by the basilisk, and he is unconscious. What should you do?"
+      puts "\n"
+      puts "1. Cast a Spell"
+      puts "2. Try a physical attack"
       option = gets.chomp.to_i
       case option
       when 1
