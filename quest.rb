@@ -107,7 +107,6 @@ class CharacterQuest
       when 2
         physical attack
       when 3
-        flee
         puts "You abandoned Harry. Do you call yourself a hero?"
         puts "Quest over!"
         break
