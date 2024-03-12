@@ -109,6 +109,7 @@ class CharacterQuest
         break
       else
         puts "Did you mean to type a number? Choose an option between 1-3..."
+      end
     end
   end
 
