@@ -101,6 +101,7 @@ class CharacterQuest
       puts "1. Cast a Spell"
       puts "2. Try a physical attack"
       puts "3. Flee the scene"
+      puts "\n"
       option = gets.chomp.to_i
       case option
       when 1
