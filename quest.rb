@@ -83,7 +83,7 @@ class CharacterQuest
   end
 
   # CHARACTER BATTLES WILL BE LOCATED BELOW
-  # Use a dictionary to create the key-value pairs for wand spells & opponent attacks
+  # Use a hash to create the key-value pairs for wand spells & opponent attacks
   def basilisk_battle
     basilisk_attack = [
       "The basilisk struck Harry with its fangs...", 
