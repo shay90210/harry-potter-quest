@@ -2,9 +2,11 @@
 class CharacterQuest
   # Will need to add the attributes and accessors to below: character name & Character role
   attr_accessor :name
+  attr_accessor :hp_villain
   
   def initialize
     @name = name
+    @hp_villain = hp_villain 
   end
   
   # User will choose a character of choice to begin Quest play
