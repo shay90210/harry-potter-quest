@@ -112,6 +112,7 @@ class CharacterQuest
       case option
       when 1
         puts "You conducted the #{spell_key} spell!"
+        puts "The basilisk lost #{spell_value} health points!"
       when 2
         physical attack
       when 3
