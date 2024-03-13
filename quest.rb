@@ -93,6 +93,9 @@ class CharacterQuest
     ]
 
     cast_spell = {:wingardrium_leviosa => 8, :expulso => 25, :stupefy => 42, :petrifacus_totalus => 17, :incarcerus => 36, :lumos => 4}
+    cast_spell_array = cast_spell.to_a.sample
+    spell_key = spell_name.at(0)
+    spell_value = spell_points.at(1)
 
     loop do
       puts "\n"
