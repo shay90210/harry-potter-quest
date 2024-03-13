@@ -111,7 +111,7 @@ class CharacterQuest
       puts "\n"
       case option
       when 1
-        cast_spell
+        puts "You conducted the #{spell_key} spell!"
       when 2
         physical attack
       when 3
