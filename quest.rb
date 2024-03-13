@@ -108,7 +108,7 @@ class CharacterQuest
       puts "\n"
       case option
       when 1
-        cast_spell.sample
+        cast_spell
       when 2
         physical attack
       when 3
