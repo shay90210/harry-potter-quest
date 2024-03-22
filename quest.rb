@@ -99,7 +99,6 @@ class CharacterQuest
     spell_key = cast_spell_array.at(0)
     spell_value = cast_spell_array.at(1)
 
-    loop do
       puts "\n"
       puts "A basilisk appeared!"
       puts basilisk_attack.sample
@@ -109,11 +108,12 @@ class CharacterQuest
       puts "2. Try a physical attack"
       puts "3. Flee the scene"
 
+    loop do
       option = gets.chomp.to_i
       puts "\n"
       case option
       when 1
-        puts "You conducted the #{spell_key} spell!"
+        puts "You conducted the #{spell_key.sample} spell!"
         puts "The basilisk lost #{spell_value} health points!"
       when 2
         physical attack
