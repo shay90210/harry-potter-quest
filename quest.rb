@@ -6,7 +6,7 @@ class CharacterQuest
   
   def initialize
     @name = name
-    @hp_villain = hp_villain 
+    @hp_villain = 100
   end
   
   # User will choose a character of choice to begin Quest play
