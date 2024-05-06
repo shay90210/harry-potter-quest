@@ -1,14 +1,5 @@
 # require is pulling the class Character from the character.rb file
 class Quest
-  # Will need to add the attributes and accessors to below: character name & Character role
-  attr_accessor :name
-  attr_accessor :hp_villain
-  
-  def initialize
-    @name = name
-    @hp_villain = 100
-  end
-  
   # User will choose a character of choice to begin Quest play
   def choose_character(character, potter)
     loop do
