@@ -4,12 +4,8 @@ class Quest
       # Introduction to game / Going to change to the user creating their character and the options to choose a HP character will be based on the quest.
       puts "Welcome to the wizarding world of Harry Potter. You will need to journey on a quest to get out of a dire situation!"
       puts "\n"
-      puts "Create your character."
+      
 
-      puts "What is your character's Name?"
-      player.name = gets.chomp.capitalize
-      puts "\n"
-      puts "Hello #{player.name}!"
 
       puts "Choose who you would like to journey alongside an adventure. Be wise as you may not know how your journey will end..."
       
@@ -40,23 +36,5 @@ class Quest
         puts "\n"
       end
     end
-  end
-
-  # Hermione Granger's quest
-  def granger_quest
-    puts "This is the Granger quest!"
-  end
-
-  # Ron Weasley's quest
-  def weasley_quest
-    puts "This is the Weasley quest!"
-  end
-
-  def bellatrix_battle
-    puts "Hermione will fight in this battle!"
-  end
-
-  def aragog_battle
-    puts "Ron will fight in this battle!"
   end
 end
