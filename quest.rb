@@ -9,7 +9,7 @@ class Quest
       puts "What is your character's Name?"
       player.name = gets.chomp.capitalize
       puts "\n"
-      puts "Hello #{self.name}!"
+      puts "Hello #{player.name}!"
 
       puts "Choose who you would like to journey alongside an adventure. Be wise as you may not know how your journey will end..."
       
