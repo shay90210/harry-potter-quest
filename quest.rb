@@ -53,11 +53,6 @@ class Quest
     end
   end
 
-  # EACH INDIVIDUAL CHARACTER QUEST - Beginning w/ Harry Potter
-  def potter_quest
-
-  end
-
   # Hermione Granger's quest
   def granger_quest
     puts "This is the Granger quest!"
