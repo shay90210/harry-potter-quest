@@ -24,7 +24,7 @@ class Quest
       option = gets.chomp.to_i
       case option
       when 1
-        potter_quest
+        potter.potter_quest
         break
       when 2
         granger_quest
