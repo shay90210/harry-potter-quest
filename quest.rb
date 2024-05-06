@@ -68,10 +68,6 @@ class Quest
     puts "This is the Weasley quest!"
   end
 
-  # CHARACTER BATTLES WILL BE LOCATED BELOW
-  # Use a hash to create the key-value pairs for wand spells & opponent attacks
-
-
   def bellatrix_battle
     puts "Hermione will fight in this battle!"
   end
