@@ -1,5 +1,5 @@
 # require is pulling the class Character from the character.rb file
-class CharacterQuest
+class Quest
   # Will need to add the attributes and accessors to below: character name & Character role
   attr_accessor :name
   attr_accessor :hp_villain
