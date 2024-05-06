@@ -5,7 +5,7 @@ class Quest
       puts "Welcome to the wizarding world of Harry Potter. You will need to journey on a quest to get out of a dire situation!"
       puts "\n"
       
-
+      player.get_player_name
 
       puts "Choose who you would like to journey alongside an adventure. Be wise as you may not know how your journey will end..."
       
