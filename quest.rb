@@ -10,7 +10,7 @@ class CharacterQuest
   end
   
   # User will choose a character of choice to begin Quest play
-  def create_character
+  def choose_character
     loop do
       # Introduction to game / Going to change to the user creating their character and the options to choose a HP character will be based on the quest.
       puts "Welcome to the wizarding world of Harry Potter. You will need to journey on a quest to get out of a dire situation!"
