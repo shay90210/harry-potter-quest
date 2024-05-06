@@ -4,5 +4,6 @@ require_relative "potter"
 
 quest = Quest.new
 character = Character.new
+potter = Potter.new
 
-quest.choose_character(character)
+quest.choose_character(character, potter)
