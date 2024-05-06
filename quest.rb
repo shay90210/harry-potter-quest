@@ -1,5 +1,5 @@
 class Quest
-  def choose_character(potter, granger, player)
+  def choose_character(potter, granger, weasley, player)
       puts "Welcome to the wizarding world of Harry Potter. You will need to journey on a quest to get out of a dire situation!"
       puts "\n"
       
@@ -24,7 +24,7 @@ class Quest
         granger.granger_quest
         break
       when 3
-        weasley_quest
+        weasley.weasley_quest
         break
       when 4
         puts "\n"
