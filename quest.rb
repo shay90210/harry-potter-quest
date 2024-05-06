@@ -27,6 +27,7 @@ class Quest
         weasley_quest
         break
       when 4
+        puts "\n"
         puts "Goodbye. Maybe we will try to make the journey again next time..."
         break
       else
