@@ -10,7 +10,10 @@ class Spell
 end
 
 levitation_spell = Spell.new(
-  name = "Wingardrium Leviosa"
+  name = "Wingardrium Leviosa",
+  power = 10,
+  target = "enemy",
+  description = "The enemy was lifted in the air and prevented from attacking."
 )
 
 Cast_spell = {:wingardrium_leviosa => 8, :expulso => 25, :stupefy => 42, :petrifacus_totalus => 17, :incarcerus => 36, :lumos => 4}
