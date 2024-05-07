@@ -36,3 +36,10 @@ light_spell = Spell.new(
   target = "none"
   description = "You lit the area because you couldn't see. The enemy was blinded for a brief moment."
 )
+
+knock_out_spell = Spell.new(
+  name = "Expellieramus",
+  power = 27,
+  target = "enemy",
+  description = "The enemy flew into the air and fell to the ground hard."
+)
