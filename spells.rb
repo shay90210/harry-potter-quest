@@ -16,6 +16,27 @@ levitation_spell = Spell.new(
   description = "The enemy was lifted in the air and prevented from attacking."
 )
 
+explosion_spell = Spell.new(
+  name = "Expulso",
+  power = 75,
+  target = "enemy",
+  description = "The enemy exploded into pieces!"
+)
+
+stun_spell = Spell.new(
+  name = "Stupefy",
+  power = 37,
+  target = "enemy",
+  description = "The enemy was stunned; they cannot move for a few seconds."
+)
+
+light_spell = Spell.new(
+  name = "Lumos",
+  power = 2,
+  target = "none"
+  description = "You lit the area because you couldn't see. The enemy was blinded for a brief moment."
+)
+
 Cast_spell = {:wingardrium_leviosa => 8, :expulso => 25, :stupefy => 42, :petrifacus_totalus => 17, :incarcerus => 36, :lumos => 4}
 cast_spell_array = cast_spell.to_a.sample
 spell_key = cast_spell_array.at(0)
