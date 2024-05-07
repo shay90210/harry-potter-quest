@@ -5,7 +5,7 @@ class Quest
       
       player.get_player_name
 
-      puts "Choose who you would like to journey alongside an adventure. Be wise as you may not know how your journey will end..."
+      puts "So...#{player.name}... Choose who you would like to play in your quest. Be wise as you may not know how your journey will end..."
       
     loop do
       puts "1. Harry Potter"
