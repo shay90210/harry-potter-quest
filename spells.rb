@@ -8,7 +8,7 @@ class Spell
   end
 end
 
-wingardrium_leviosa = Spell.new(
+levitation_spell = Spell.new(
   name = "Wingardrium Leviosa"
 )
 
