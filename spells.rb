@@ -2,6 +2,8 @@ class Spell
   attr_accessor :spell_name :spell_power
 
   def initialize
+    @spell_name = spell_name
+    @spell_power = 0
   end
 end
 
