@@ -1,10 +1,11 @@
 class Spell
-  attr_accessor :name :power :effect
+  attr_accessor :name :power :target :description
 
   def initialize
     @name = spell_name
     @power = 0
-    @effect = 0
+    @target = target
+    @description = description
   end
 end
 
