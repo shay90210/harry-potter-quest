@@ -36,7 +36,3 @@ light_spell = Spell.new(
   target = "none"
   description = "You lit the area because you couldn't see. The enemy was blinded for a brief moment."
 )
-
-cast_spell_array = cast_spell.to_a.sample
-spell_key = cast_spell_array.at(0)
-spell_value = cast_spell_array.at(1)
