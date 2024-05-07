@@ -11,7 +11,7 @@ end
 
 levitation_spell = Spell.new(
   name = "Wingardrium Leviosa",
-  power = 10,
+  power = 11,
   target = "enemy",
   description = "The enemy was lifted in the air and prevented from attacking."
 )
