@@ -4,6 +4,7 @@ class Spell
   def initialize
     @name = spell_name
     @power = 0
+    @effect = 0
   end
 end
 
