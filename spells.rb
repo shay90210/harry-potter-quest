@@ -1,5 +1,5 @@
 class Spell
-  attr_accessor :name :power
+  attr_accessor :name :power :effect
 
   def initialize
     @name = spell_name
