@@ -1,5 +1,5 @@
 class Spell
-  attr_accessor :name :power :target :description
+  attr_accessor :name, :power, :target, :description
 
   def initialize(name, power, target, description)
     @name = spell_name
@@ -33,7 +33,7 @@ stun_spell = Spell.new(
 light_spell = Spell.new(
   name = "Lumos",
   power = 2,
-  target = "none"
+  target = "none",
   description = "You lit the area because you couldn't see. The enemy was blinded for a brief moment."
 )
 
@@ -64,3 +64,5 @@ water_spell = Spell.new(
   target = "enemy",
   description = "Water flowed from the wand and attacked the enemy!"
 )
+
+puts "This is the #{water_spell.name}. It has a power of #{water_spell.power}. It only attacks the #{water_spell.target}. What is does is #{water_spell.description}."
