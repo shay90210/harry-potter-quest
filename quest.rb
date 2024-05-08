@@ -1,6 +1,6 @@
 class Quest
   def choose_character(potter, granger, weasley, player)
-      puts "Welcome to the Wizarding World of Harry Potter. You will need to journey on a quest to get out of a dire situation!"
+      puts "Welcome to the Wizarding World. You will need to journey on a quest to get out of a dire situation!"
       puts "\n"
       
       player.get_player_name
