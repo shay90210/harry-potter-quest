@@ -10,7 +10,7 @@ end
 class Hero < Character
   attr_accessor :hero_hp
 
-  def initialize
+  def initialize(name, role, hero_hp)
     @hero_hp = 0
   end
 end
@@ -19,7 +19,7 @@ class Villain < Character
   attr_accessor :attack_power
   attr_accessor :villain_hp
 
-  def initialize
+  def initialize(name, role, villain_hp, attack_power)
     @attack_power = 0
     @villain_hp = 0
   end
