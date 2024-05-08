@@ -48,7 +48,7 @@ death_spell = Spell.new(
   name = "Avada Kedavra",
   power = 100,
   target = "enemy",
-  description = "The enemy was killed."
+  description = "The enemy was killed!"
 )
 
 cut_spell = Spell.new(
@@ -58,4 +58,9 @@ cut_spell = Spell.new(
   description = "The enemy was cut, and now they are heavily bleeding."
 )
 
-
+water_spell = Spell.new(
+  name = "Aguamenti",
+  power = 22,
+  target = "enemy",
+  description = "Water flowed from the wand and attacked the enemy!"
+)
