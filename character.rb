@@ -7,6 +7,14 @@ class Character
   end
 end
 
+class Hero < Character
+  attr_accessor :hero_hp
+
+  def initialize
+    @hero_hp = 0
+  end
+end
+
 class Villain < Character
   attr_accessor :attack_power
   attr_accessor :villain_hp
