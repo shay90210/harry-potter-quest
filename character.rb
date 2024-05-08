@@ -9,9 +9,11 @@ end
 
 class Villain < Character
   attr_accessor :attack_power
+  attr_accessor :villain_hp
 
   def initialize
     @attack_power = 0
+    @villain_hp = 0
   end
 end
 
