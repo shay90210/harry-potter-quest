@@ -3,7 +3,7 @@ class Spell
 
   def initialize(name, power, target, description)
     @name = name
-    @power = 0
+    @power = power
     @target = target
     @description = description
   end
