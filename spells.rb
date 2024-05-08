@@ -50,3 +50,12 @@ death_spell = Spell.new(
   target = "enemy",
   description = "The enemy was killed."
 )
+
+cut_spell = Spell.new(
+  name = "Sectumsempra",
+  power = 83,
+  target = "enemy",
+  description = "The enemy was cut, and now they are heavily bleeding."
+)
+
+
