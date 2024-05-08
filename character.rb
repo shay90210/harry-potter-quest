@@ -36,5 +36,5 @@ villain2 = Villain.new("Bellatrix LeStrange", "Death Eater", 100, 36)
 villain3 = Villain.new("Aragog", "Acromantula", 100, 60)
 
 
-puts "My name is #{hero1.name}, and I am a #{hero1.role}. My health points are #{hero1.hero_hp}."
+# TEST puts "My name is #{hero1.name}, and I am a #{hero1.role}. My health points are #{hero1.hero_hp}."
 # TEST puts "My name is #{villain1.name}, and I am a #{villain1.role}. My health points are #{villain1.villain_hp}, and my attack power is #{villain1.attack_power}."
