@@ -43,3 +43,10 @@ knock_out_spell = Spell.new(
   target = "enemy",
   description = "The enemy flew into the air and fell to the ground hard."
 )
+
+death_spell = Spell.new(
+  name = "Avada Kedavra",
+  power = 100,
+  target = "enemy",
+  description = "The enemy was killed."
+)
