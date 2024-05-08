@@ -2,7 +2,7 @@ class Spell
   attr_accessor :name, :power, :target, :description
 
   def initialize(name, power, target, description)
-    @name = spell_name
+    @name = name
     @power = 0
     @target = target
     @description = description
@@ -65,4 +65,4 @@ water_spell = Spell.new(
   description = "Water flowed from the wand and attacked the enemy!"
 )
 
-puts "This is the #{water_spell.name}. It has a power of #{water_spell.power}. It only attacks the #{water_spell.target}. What is does is #{water_spell.description}."
+puts "This is the #{water_spell.name} spell. It has a power of #{water_spell.power}. It only attacks the #{water_spell.target}. What is does is #{water_spell.description}."
