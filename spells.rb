@@ -65,4 +65,4 @@ water_spell = Spell.new(
   description = "Water flowed from the wand and attacked the enemy!"
 )
 
-puts "This is the #{water_spell.name} spell. It has a power of #{water_spell.power}. It only attacks the #{water_spell.target}. What is does is #{water_spell.description}."
+# TEST puts "This is the #{water_spell.name} spell. It has a power of #{water_spell.power}. It only attacks the #{water_spell.target}. What is does is #{water_spell.description}."
