@@ -1,11 +1,17 @@
 class Character
-  attr_accessor :name, :health_hp, :role, :attack_power
+  attr_accessor :name, :role
 
-  def initialize(name, health_hp, role, attack_power) 
+  def initialize(name, role) 
     @name = name
-    @health_hp = health_hp
     @role = role
-    @attack_power = attack_power
+  end
+end
+
+class Villain < Character
+  attr_accessor :attack_power
+
+  def initialize
+    @attack_power = 0
   end
 end
 
