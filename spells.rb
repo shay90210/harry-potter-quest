@@ -1,7 +1,7 @@
 class Spell
   attr_accessor :name :power :target :description
 
-  def initialize
+  def initialize(name, power, target, description)
     @name = spell_name
     @power = 0
     @target = target
