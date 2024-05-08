@@ -17,9 +17,9 @@ class Villain < Character
   end
 end
 
-wizard1 = Character.new("Harry Potter", 100, "Howgarts Wizard", 17)
-wizard2 = Character.new("Hermione Granger", 100, "Hogwarts Wizard", 20)
-wizard3 = Character.new("Ron Weasley", 100, "Hogwarts Wizard", 16)
+wizard1 = Character.new("Harry Potter", 100, "Howgarts Wizard")
+wizard2 = Character.new("Hermione Granger", 100, "Hogwarts Wizard")
+wizard3 = Character.new("Ron Weasley", 100, "Hogwarts Wizard")
 
 villain1 = Character.new("Basilisk", 100, "Large Snake", 50)
 villain2 = Character.new("Bellatrix LeStrange", 100, "Death Eater", 36)
