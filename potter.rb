@@ -1,5 +1,7 @@
+require_relative "basilisk"
+
 class Potter
-  def potter_quest(basilisk)
+  def potter_quest
     puts "\n"
     puts "Harry is looking for Ginny in the Chamber of Secrets. The heir of Slytherin kidnapped her and threatened to harm her!"
     puts "Harry enters a tunnel and hears a hisssssssssssssssssssssssssssssss...."
