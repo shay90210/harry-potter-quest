@@ -1,4 +1,4 @@
-class Potter
+class Potter(basilisk)
   def potter_quest
     puts "\n"
     puts "Harry is looking for Ginny in the Chamber of Secrets. The heir of Slytherin kidnapped her and threatened to harm her!"
@@ -12,7 +12,7 @@ class Potter
     option = gets.chomp.to_i
     case option
     when 1
-      basilisk_battle
+      basilisk.basilisk_battle
     else
       puts "The sound is getting closer and more vivid..."
     end
