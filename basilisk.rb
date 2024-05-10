@@ -15,23 +15,5 @@ class Basilisk
       puts "1. Cast a Spell"
       puts "2. Try a physical attack"
       puts "3. Flee the scene"
-
-    loop do
-      option = gets.chomp.to_i
-      puts "\n"
-      case option
-      when 1
-        puts "You conducted the #{spell_key.sample} spell!"
-        puts "The basilisk lost #{spell_value} health points!"
-      when 2
-        physical attack
-      when 3
-        puts "You abandoned Harry. Do you call yourself a hero?"
-        puts "Quest over!"
-        break
-      else
-        puts "Did you mean to type a number? Choose an option between 1-3..."
-      end
-    end
   end
 end
