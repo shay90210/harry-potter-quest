@@ -11,7 +11,5 @@ class Basilisk
       puts "A basilisk appeared!"
 
       puts basilisk_attack.sample
-
-
   end
 end

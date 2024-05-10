@@ -1,3 +1,5 @@
+require_relative "basilisk"
+
 class Potter
   def potter_quest
     puts "\n"
@@ -12,7 +14,7 @@ class Potter
     option = gets.chomp.to_i
     case option
     when 1
-      basilisk.basilisk_battle
+      basilisk_battle
     else
       puts "The sound is getting closer and more vivid..."
     end
