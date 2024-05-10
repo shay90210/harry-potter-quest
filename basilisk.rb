@@ -9,7 +9,9 @@ class Basilisk
 
       puts "\n"
       puts "A basilisk appeared!"
+
       puts basilisk_attack.sample
+      
       puts "Harry was knocked down by the basilisk, and he is unconscious. What should you do?"
       puts "\n"
       puts "1. Cast a Spell"
