@@ -1,5 +1,3 @@
-require_relative "basilisk"
-
 class Potter
   def potter_quest
     puts "\n"
