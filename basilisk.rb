@@ -1,5 +1,6 @@
 class Basilisk
   def basilisk_battle
+    
     basilisk_attack = [
       "The basilisk struck Harry with its fangs...", 
       "The basilisk wacked Harry with his tail...", 
