@@ -8,7 +8,7 @@ require_relative "weasley"
 require_relative "basilisk"
 
 quest = Quest.new
-Player = Player.new
+player = Player.new
 
 potter = Potter.new
 granger = Granger.new
