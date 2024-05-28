@@ -6,6 +6,12 @@ class Granger
 
     user_choice = gets.chomp.to_i
 
-    
+    case user_choice
+    when 1
+      use_wand
+    when 2
+      attempt_get_out
+    else
+      
   end
 end
