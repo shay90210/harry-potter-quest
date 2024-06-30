@@ -16,6 +16,7 @@ class Granger
     when 2
       attempt_get_out
     else
+    end 
       
   end
 end
